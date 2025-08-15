@@ -11,7 +11,7 @@ This project demonstrates my approach to solving various analytical and visualiz
 
 The analysis focuses on **Sales**, **Product Performance**, and **Customer Insights**, with additional advanced visuals such as decomposition trees, custom bullet charts, and KPI gauges.
 
-![Alt text](Screenshots\visual_gallery.png)
+![Alt text](Screenshots/visual_gallery.png)
 
 
 
@@ -25,23 +25,23 @@ The analysis focuses on **Sales**, **Product Performance**, and **Customer Insig
   - Created the custom column **Profit** = "Profit" = SalesAmount - (Quantity 
 * Cost from Products table) as well as a conditional column for Sales Amount Level
   - Added a date hierarchy from the Date table for time intelligence functions.
-![Alt text](Screenshots\Customer_power_query_steps.png)
-![Alt text](Screenshots\Product_power_query_steps.png)
-![Alt text](Screenshots\Sales_power_query_steps.png)
-![Alt text](Screenshots\Date_power_query_steps.png)
-![Alt text](Screenshots\shot1.png)
-![Alt text](Screenshots\shot2.png)
-![Alt text](Screenshots\shot3.png)
-![Alt text](Screenshots\shot4.png)
+![Alt text](Screenshots/Customer_power_query_steps.png)
+![Alt text](Screenshots/Product_power_query_steps.png)
+![Alt text](Screenshots/Sales_power_query_steps.png)
+![Alt text](Screenshots/Date_power_query_steps.png)
+![Alt text](Screenshots/shot1.png)
+![Alt text](Screenshots/shot2.png)
+![Alt text](Screenshots/shot3.png)
+![Alt text](Screenshots/shot4.png)
 **Challenge Faced:**  
 I encountered issues fixing invalid postal codes in the Customers table. The data was inconsistent and did not align with mapping visuals, so I dropped the column to maintain model integrity.
-![Alt text](Screenshots\Customer_powerquery_postal_code.png)
+![Alt text](Screenshots/Customer_powerquery_postal_code.png)
 
 ---
 
 ## Section 2: Data Modeling
 
-![Alt text](Screenshots\Data_Model.png)
+![Alt text](Screenshots/Data_Model.png)
 - Established relationships:
   - **One-to-Many** between Date and Sales (DateKey).
   - Linked Customers → Sales, Products → Sales, Regions → Customers.
@@ -53,7 +53,7 @@ I encountered issues fixing invalid postal codes in the Customers table. The dat
 
 ## Section 3: Creating Visualizations
 ## Sales Overview Page**
-![Alt text](Screenshots\sales_report.png)
+![Alt text](Screenshots/sales_report.png)
 
 
 #### 1. Profit Performance
@@ -91,7 +91,7 @@ I encountered issues fixing invalid postal codes in the Customers table. The dat
 - Diverse international market presence.
 
 ## Product Analysis Page**
-![Alt text](Screenshots\product_report.png)
+![Alt text](Screenshots/product_report.png)
 
 
 #### 1. Outlier Overview
@@ -129,7 +129,7 @@ I encountered issues fixing invalid postal codes in the Customers table. The dat
 
 
 ## Customer Insights Page**
-![Alt text](Screenshots\customer_report.png)
+![Alt text](Screenshots/customer_report.png)
 
 
 #### 1. City-Level Customer Concentration
@@ -167,7 +167,7 @@ I encountered issues fixing invalid postal codes in the Customers table. The dat
 ---
 
 ## Section 4: Building Reports and Dashboards
-![Alt text](Screenshots\product_report_showing_bookmarks.png)
+![Alt text](Screenshots/product_report_showing_bookmarks.png)
 - Published report to Power BI Service.
 - Created a new dashboard and pinned key visuals from all report pages.
 - Added Q&A tile with natural language query (“Top selling product in 2024”).
@@ -181,9 +181,9 @@ I encountered issues fixing invalid postal codes in the Customers table. The dat
 ## Section 4: Advanced Features and DAX
 ### Row-Level Security
 
-![Alt text](Screenshots\European_Manager_Role.png)
-![Alt text](Screenshots\European_Manager.png)
-![Alt text](Screenshots\US_manager_role_creation.png)
+![Alt text](Screenshots/European_Manager_Role.png)
+![Alt text](Screenshots/European_Manager.png)
+![Alt text](Screenshots/US_manager_role_creation.png)
 
 
 
