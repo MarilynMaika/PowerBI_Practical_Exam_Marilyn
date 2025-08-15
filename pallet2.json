@@ -1,0 +1,29 @@
+{
+  "name": "Blue Palette Theme",
+  "dataColors": [
+    "#193475",  
+    "#02060F",  
+    "#0D348F",  
+    "#213259",  
+    "#2E4782"   
+  ],
+  "background": "#F5F3EF",   
+  "foreground": "#333333",   
+  "tableAccent": "#193475",  
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "color": { "solid": { "color": "#333333" } }
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#333333" } }
+          }
+        ]
+      }
+    }
+  }
+}
