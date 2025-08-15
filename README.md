@@ -52,9 +52,9 @@ I encountered issues fixing invalid postal codes in the Customers table. The dat
 ---
 
 ## Section 3: Creating Visualizations
-## Sales Overview Page:**
+## Sales Overview Page**
 ![Alt text](Screenshots\sales_report.png)
-  ### 📊 Sales Overview Insights
+
 
 #### 1. Profit Performance
 - **Total Profit:** $10.67M  
@@ -90,10 +90,9 @@ I encountered issues fixing invalid postal codes in the Customers table. The dat
 - **Australia:** Townsville, Wollongong  
 - Diverse international market presence.
 
-## Product Analysis Page:**
+## Product Analysis Page**
 ![Alt text](Screenshots\product_report.png)
 
-# 🚴 Product Analysis Insights
 
 #### 1. Outlier Overview
 - **Max Outlier Value:** $27,893.62  
@@ -129,14 +128,46 @@ I encountered issues fixing invalid postal codes in the Customers table. The dat
 - Performance is highly skewed toward a few high-profit, low-quantity products.
 
 
-## Customer Insights Page:**
+## Customer Insights Page**
 ![Alt text](Screenshots\customer_report.png)
-  - Table visual showing Top Customers by Sales, with conditional formatting (red for low profit).
-  - Dynamic Top N filter using RANKX for Top 5 products.
+
+
+#### 1. City-Level Customer Concentration
+- **London**: 1,555 customers (largest customer base).
+- **Paris**: 1,163 customers (second largest).
+- Combined, London and Paris account for a significant share of all customers.
+
+---
+
+#### 2. Geographic Sales Concentration
+- Top 5 cities — **London, Paris, Burien, Bellingham, Concord** — hold the majority of customers.
+- Indicates sales opportunities are concentrated in a few geographic hubs.
+
+---
+
+#### 3. High-Value Customers
+- Certain customers such as **AW00012650** and **AW00011242** each generate **$4.2M+ in profit**.
+- A small number of high-value clients contribute disproportionately to total profits.
+
+---
+
+#### 4. Overall Sales & Profit
+- **Total Sales (2018–2021):** $72.49M  
+- **Total Profit:** $183.55M  
+- Suggests strong margins and/or premium pricing.
+
+---
+
+#### 5. Repeat Purchase Behavior
+- **Customer Count:** 18.48K  
+- **Total Orders:** 116K  
+- **Average Orders per Customer:** ~6.3  
+- Indicates strong customer retention and repeat buying patterns.
 
 ---
 
 ## Section 4: Building Reports and Dashboards
+![Alt text](Screenshots\product_report_showing_bookmarks.png)
 - Published report to Power BI Service.
 - Created a new dashboard and pinned key visuals from all report pages.
 - Added Q&A tile with natural language query (“Top selling product in 2024”).
@@ -153,6 +184,14 @@ I encountered issues fixing invalid postal codes in the Customers table. The dat
 ![Alt text](Screenshots\European_Manager_Role.png)
 ![Alt text](Screenshots\European_Manager.png)
 ![Alt text](Screenshots\US_manager_role_creation.png)
+
+
+
+###Files in Repository
+- `Endsem_BI.pbix` → Power BI project file.
+- `README.md` → This documentation.
+- `screenshots/` → PNG images of report pages and visuals.
+- `DSA3050_END_SEM.pdf` → pdf of reports
 
 
 
